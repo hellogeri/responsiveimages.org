@@ -56,7 +56,6 @@ table {
 .logo img {
 	width: 100%;
 }
-
 .main {
 	background: #fff;
 	background: rgba(255,255,255,.8);
@@ -67,6 +66,21 @@ table {
 }
 .main > div {
 	float: left;
+}
+.row {
+width: 100%;
+zoom: 1;
+}
+.clearfix {
+   *zoom: 1;
+ }
+.clearfix:before,
+.clearfix:after {
+   display: table;
+   content: "";
+ }
+.clearfix:after {
+   clear: both;
 }
 .intro {
 	color: #444;
@@ -89,10 +103,6 @@ table {
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
-}
-.topic:last-child {
-	border-bottom: 1px solid #aaa;
-	margin-bottom: 2em;
 }
 .topic p {
 	color: #222;
@@ -117,11 +127,10 @@ table {
 .topic a:hover b {
 	color: #d6342d;
 }
-.topic:nth-of-type(3n){
+.topic:nth-of-type(5n){
 	margin-right: none;
 	padding-bottom: 1.5em;
 }
-
 .subhed {
 	background-color: #841d1a;
 	background-image: -webkit-linear-gradient( bottom, rgba( 0,0,0,.15 ) 0%, rgba( 255,255,255,0 ) 100% );
@@ -140,7 +149,6 @@ table {
 	text-align: center;
 	text-shadow: 0 1px 1px rgba(0,0,0,.75);
 	text-transform: uppercase;
-
 	-webkit-transition: background-color .1s linear;
 	-moz-transition: background-color .1s linear;
 	-o-transition: background-color .1s linear;
@@ -361,9 +369,14 @@ a:hover .assets-hed {
 		width: 33.333333333333%;
 		padding-bottom: 2.5em;
 	}
-	.topic:nth-of-type(3n){
+	.topic:nth-of-type(5n){
 		padding-bottom: 0;
 	}
+	
+	.getinvolved {
+		width: 66.66666666666%;
+	}
+	
 	.logo {
 		width: 340px;
 	}

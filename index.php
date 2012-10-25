@@ -18,29 +18,47 @@
 
 	<div class="main">
 		<div>
-			<section class="topic">
-				<h1 class="subhed"><a href="http://picture.responsiveimages.org">What is the `picture` Element?</a></h1>
-				<p>The <code>picture</code> element is a markup pattern that allows developers to declare multiple sources for
-					an image. By using media queries, it gives developers control as to when and if those
-					images are presented to the user.</p>
-				<a href="http://picture.responsiveimages.org" class="more">View the <code>picture</code> Specification</a>
+			<div class="row clearfix">
+				<section class="topic">
+					<h1 class="subhed"><a href="http://picture.responsiveimages.org">What is the `picture` Element?</a></h1>
+					<p>The <code>picture</code> element is a markup pattern that allows developers to declare multiple sources for
+						an image. By using media queries, it gives developers control as to when and if those
+						images are presented to the user.</p>
+					<a href="http://picture.responsiveimages.org" class="more">View the <code>picture</code> Specification</a>
+				</section>
+
+				<section class="topic">
+					<h1 class="subhed"><a href="http://dev.w3.org/html5/srcset/">What is the `srcset` attribute?</a></h1>
+					<p>The <code>srcset</code> attribute is an extension to the existing <code>img</code> tag that
+						provides some of the functionality of the <code>picture</code> element. It uses a more concise syntax,
+						part of which may be used by the <code>picture</code> element.</p>
+
+					<a href="http://dev.w3.org/html5/srcset/" class="more">View the <code>srcset</code> Specification</a>
+				</section>
+
+				<section class="topic">
+					<h1 class="subhed"><a href="http://usecases.responsiveimages.org">What are the use cases for each?</a></h1>
+					<p>The <em>Use Cases and Requirements</em> document outlines the goals, objectives, and potential issues
+						for end users that must be solved by the <code>picture</code> and <code>srcset</code> extension specifications.</p>
+
+					<a href="http://usecases.responsiveimages.org" class="more">View the Use Cases and Requirements</a>
+				</section>
+			</div>
+		
+			<section class="topic getinvolved">
+				<h1 class="subhed">Get Involved!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et mattis dui. Sed vestibulum mauris quis ante sagittis dictum. Suspendisse sed diam mattis quam vehicula auctor. Aliquam id mattis lacus. Donec congue bibendum augue ut consectetur. Morbi consectetur orci sed arcu tristique non pulvinar arcu rutrum. Mauris ac metus magna. Cras nec nibh ac massa vehicula consectetur.</p>
 			</section>
-
+			
 			<section class="topic">
-				<h1 class="subhed"><a href="http://dev.w3.org/html5/srcset/">What is the `srcset` attribute?</a></h1>
-				<p>The <code>srcset</code> attribute is an extension to the existing <code>img</code> tag that
-					provides some of the functionality of the <code>picture</code> element. It uses a more concise syntax,
-					part of which may be used by the <code>picture</code> element.</p>
-
-				<a href="http://dev.w3.org/html5/srcset/" class="more">View the <code>srcset</code> Specification</a>
-			</section>
-
-			<section class="topic">
-				<h1 class="subhed"><a href="http://usecases.responsiveimages.org">What are the use cases for each?</a></h1>
-				<p>The <em>Use Cases and Requirements</em> document outlines the goals, objectives, and potential issues
-					for end users that must be solved by the <code>picture</code> and <code>srcset</code> extension specifications.</p>
-
-				<a href="http://usecases.responsiveimages.org" class="more">View the Use Cases and Requirements</a>
+				<h1 class="subhed">Resources</h1>
+				<p>Here's a few quick links to help keep you up to date with the latest issues regarding responsive images:</p>
+				<ul>
+					<li><a href="http://bugs.responsiveimages.org">All Open Issues</a></li>
+					<li><a href="http://ircbot.responsiveimages.org">IRC Logs</a></li>
+					<li><a href="http://list.responsiveimages.org">Mailing List</a></li>
+					<li><a href="http://w3c.responsiveimages.org/">W3C Community Group</a></li>
+				</ul>
 			</section>
 
 			<section id="issue-tracker">
