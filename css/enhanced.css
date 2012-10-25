@@ -249,6 +249,7 @@ table tbody td {
 	max-width: 1200px;
 	overflow: auto;
 	padding: 0 2.941176470588% 3em 2.941176470588%;
+	clear: both;
 }
 .social {
 	clear: both;
